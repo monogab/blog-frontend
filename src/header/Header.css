@@ -1,0 +1,12 @@
+.App-header {
+    background-color: white;
+    min-height: 10vh;
+
+    font-size: calc(10px + 2vmin);
+    color: GrayText;
+}
+
+
+.header-right{
+    float:right;
+}

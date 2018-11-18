@@ -2,19 +2,19 @@ import React, { Component } from 'react';
 import './Footer.css';
 
 
-class Footer extends Component {
+class FooterComponent extends Component {
     render() {
         return (
-            <header className="App-footer">
-
-                <span>under construction...</span>
-
-
-
-            </header>
+            <footer>
+                <container>
+                    <content>
+                            <a href="https://www.linkedin.com/in/g%C3%A1bor-monostori-07138884/">Gábor Monostori</a>
+                    </content>
+                </container>
+            </footer>
 
         );
     }
 }
 
-export default Footer;
+export default FooterComponent;

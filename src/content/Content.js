@@ -6,36 +6,23 @@ class Content extends Component {
     render() {
         return (
             <div className="container">
-                Contents
-                <button className="button is-primary" color="danger" size="large" outlined>Wowza!</button>
-                <button
-                    renderAs="a"
-                    href="https://alligator.io"
-                    color="danger"
-                    size="small"
-                    rounded
-                    outlined
-                >
-                    Wowza, it's a link!
-                </button>
-
-
 
                 <div className="tile is-ancestor">
                     <div className="tile is-vertical is-8">
                         <div className="tile">
                             <div className="tile is-parent is-vertical">
-                            <article className="tile is-child notification is-primary">
-                                <p className="title">Vertical...</p>
-                                <p className="subtitle">Top tile</p>
-                            </article>
-                            <article className="tile is-child notification is-warning">
-                                <p className="title">...tiles</p>
-                                <p className="subtitle">Bottom tile</p>
-                            </article>
-                         </div>
+                                <article className="tile is-child notification is-primary">
+                                    <p className="title">Vertical...</p>
+                                    <p className="subtitle">Top tile</p>
+                                </article>
+                                <article className="tile is-child notification is-warning">
+                                    <p className="title">...tiles</p>
+                                    <p className="subtitle">Bottom tile</p>
+                                </article>
+                            </div>
                             <div className="tile is-parent">
                                 <article className="tile is-child notification is-info">
+                                    <p className="title">ThreeJS example</p>
                                     <ThreeContainer/>
                                 </article>
                             </div>

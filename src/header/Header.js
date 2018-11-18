@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Header.css';
 import logo from '../logo.svg';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class Header extends Component {
     render() {
@@ -10,9 +11,9 @@ class Header extends Component {
                     <div class="navbar-brand">
                         <span>Blog by monogab</span>
                         <span class="header-right">
-                            <a class="active" href="#home">Home</a>
-                            <a href="#contact">Contact</a>
-                            <a href="#about">About</a>
+                            <Link to="/">Home</Link>
+                            <Link to="/contact">Contact</Link>
+                            <Link to="/about">About</Link>
                         </span>
                     </div>
                     <div class="navbar-item">
